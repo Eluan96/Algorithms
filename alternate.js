@@ -6,3 +6,12 @@
 // 0, "one", "two"    -->  []
 
 
+function alternate(n, firstValue, secondValue){
+    // your code
+    let arr = []
+    
+    while(arr.length < n){
+      arr.push(firstValue, secondValue)
+    }
+    return arr.slice(0,n)
+  }
