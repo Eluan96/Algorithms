@@ -73,6 +73,8 @@
 
 // Solution 2
 
-const autocorrect = input => input.replace(/\b(u|you+)\b/gi, "your client");
+const autocorrect = input => input.replace(/\b(u+|you+)\b/gi, "your client");
 
-console.log(autocorrect("I called to talk to u."));
+//const autocorrect = input => input.replace((u||you), "your client")
+
+console.log(autocorrect("I called to talk to uu."));

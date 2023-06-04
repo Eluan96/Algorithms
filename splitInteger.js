@@ -85,8 +85,7 @@ function splitInteger(num, parts){
     let res = [];
     let divs = ~~(num / parts)
     let rem = num % parts
-    console.log(rem)
-
+    
     for(let i = 0; i < parts; i++){
         res.push(divs)
     }
