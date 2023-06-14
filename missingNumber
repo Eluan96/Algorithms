@@ -1,0 +1,5 @@
+function missingNum(num){
+    let miss = undefined
+
+    for(let i = 0; i < num)
+}

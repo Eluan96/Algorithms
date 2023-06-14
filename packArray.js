@@ -76,7 +76,8 @@
  * @returns {number} The lone element.
  */
 
-Solution 1
+//Solution 1
+
 const packArray = (integers) => {
   let k = 0;
   while (integers.length > 1) {
@@ -94,7 +95,8 @@ const packArray = (integers) => {
   return integers[0];
 };
 
-Solution 2
+//Solution 2
+
 const packArrays = (integers) => {
   if (integers.length == 1) {
     let n = integers[0];
@@ -117,7 +119,7 @@ const packArrays = (integers) => {
   return 0;
 };
 
-Solution 3
+//Solution 3
 
 const packArray = arr => {
   let curr = arr

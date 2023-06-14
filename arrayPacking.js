@@ -89,4 +89,6 @@ console.log(arrayPacking([24, 85, 0]));
 
 //SOLUTION 4
 
+function arrayPacking(a){
 a.reduceRight((pre, val) => pre * 256 + val, 0)
+}
